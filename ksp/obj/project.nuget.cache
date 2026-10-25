@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "QUh1M/ZL87k=",
+  "success": true,
+  "projectFilePath": "C:\\Moдодельня\\KerbalCraft\\ksp\\KerbalCraft.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fedor\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\fedor\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.3\\microsoft.netframework.referenceassemblies.net472.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
