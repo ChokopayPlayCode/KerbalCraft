@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "kerbalcraft",
+  "version": "${version}",
+  "name": "KerbalCraft",
+  "description": "Minecraft inside Kerbal Space Program: walk as Steve on other worlds, build with blocks, kick rockets.",
+  "authors": ["KerbalCraft contributors", "SkyCraft by chasmlol (MIT)"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["dev.kerbalcraft.KerbalCraft"],
+    "client": ["dev.kerbalcraft.client.KerbalCraftClient"]
+  },
+  "mixins": [
+    "kerbalcraft.mixins.json",
+    { "config": "kerbalcraft.client.mixins.json", "environment": "client" }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
